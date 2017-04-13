@@ -51,6 +51,7 @@
 		576F0B151E9F0D560067D018 /* VXCommonPageServicePtotocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXCommonPageServicePtotocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576F0B191E9F0D560067D018 /* VXCommonPageServicePtotocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXCommonPageServicePtotocolUITests.m; sourceTree = "<group>"; };
 		576F0B1B1E9F0D560067D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576F0B281E9F0DA20067D018 /* VXCommonPageServicePtotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXCommonPageServicePtotocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		576F0AF31E9F0D540067D018 /* VXCommonPageServicePtotocol */ = {
 			isa = PBXGroup;
 			children = (
+				576F0B271E9F0D910067D018 /* VXCommonPageServicePtotocol */,
 				576F0AF71E9F0D540067D018 /* AppDelegate.h */,
 				576F0AF81E9F0D550067D018 /* AppDelegate.m */,
 				576F0AFA1E9F0D550067D018 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				576F0B1B1E9F0D560067D018 /* Info.plist */,
 			);
 			path = VXCommonPageServicePtotocolUITests;
+			sourceTree = "<group>";
+		};
+		576F0B271E9F0D910067D018 /* VXCommonPageServicePtotocol */ = {
+			isa = PBXGroup;
+			children = (
+				576F0B281E9F0DA20067D018 /* VXCommonPageServicePtotocol.h */,
+			);
+			path = VXCommonPageServicePtotocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
